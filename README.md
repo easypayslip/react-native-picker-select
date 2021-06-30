@@ -22,20 +22,20 @@ For either platform, you can alternatively pass down a child element of your cho
 ### Installing
 
 ```
-npm install react-native-picker-select
+npm install react-native-community-select
 
 # React Native users
-npm install @react-native-picker/picker
+npm install @react-native-community/picker
 npx pod-install
 
 # Expo
-expo install @react-native-picker/picker
+expo install @react-native-community/picker
 ```
 
 ### Basic Usage
 
 ```js
-import RNPickerSelect from 'react-native-picker-select';
+import RNPickerSelect from 'react-native-community-select';
 
 export const Dropdown = () => {
     return (
